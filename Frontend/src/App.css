@@ -1,0 +1,258 @@
+
+/* .flex-container{
+    display: flex;
+    space-items: center;
+
+} */
+
+
+
+body{
+    /* background-image: linear-gradient(rgb(236, 241, 155), rgb(148, 173, 89)); */
+   
+    color: rgb(15, 15, 15);
+    scroll-behavior: smooth;
+    font-family: verdana, Lucida Sans Unicode, Geneva, Tahoma, sans-serif;
+
+}
+
+::selection {
+    background-color: rgb(214, 103, 103);
+  }
+
+
+
+
+.nav-item:hover > a{
+    /* font-size: 1.1rem; */
+
+    background-color: rgba(255, 255, 255, 0.712);
+}
+
+.nav-item > a:hover > svg {
+    color: rgb(107, 0, 247);
+
+}
+
+.my-account{
+    margin-top: 20px;
+}
+.my-profile:hover
+{
+    box-shadow: 0 8px 12px 0 rgb(18, 208, 233)
+}
+
+
+
+
+#intro-button{
+    position: absolute; 
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 900;
+    border-color: #fff;
+    color: #06031d;
+    background-color: #8BC34A;  
+    width: 10rem;
+    height: 6rem;
+    z-index: 500;
+    border-radius:  22px 65px;
+    box-shadow: -4px 2px 11px 1px rgba(0, 0, 0, .2);
+    /* transition: width .3s, height .3s; */
+    transition: all .1s ease-out; 
+
+}
+
+
+#intro-button:hover, #intro-button:active{
+    font-size: 0;
+    border: 5px solid #fff;
+
+}
+
+#intro-button:hover >svg, #intro-button:active >svg{
+    width: 7rem;
+    height: 4rem;
+    color: #7e3e3e
+  
+}
+
+.intro-title{
+   
+    font-size: 2rem;   
+    z-index: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+
+
+.intro-description{
+
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: verdana, 'open sans', sans-serif;
+    margin-bottom: 25px;
+    padding: 10px 14px 10px 44px;
+    position: relative;
+    box-shadow: 0px 1px 5px #999;
+}
+
+
+
+#intro-nediche-logo{
+    width: 40%;
+}
+
+#page{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main-footer {
+    position: relative;
+    background-color: rgb(53, 204, 184);
+    bottom: 0;
+    width: 100%;
+  }
+  
+  
+
+.footer-further{
+    text-align: center;
+}
+
+.footer-links{
+    list-style: none;
+}
+
+.footer-links > li > a, .footer-further{
+    text-decoration: none;
+    color:rgb(15, 15, 15);
+}
+
+
+
+.footer-links > li > a:hover, .footer-about-us > li:hover,
+.footer-further:hover{
+    color:rgb(84, 28, 158);
+    cursor: pointer;
+}
+
+
+.card-style{
+    width: 18rem;
+    background-color: #dee;
+    margin: 3% 2% 1% 2%;
+    
+}
+
+
+.div-and-text{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    align-items: center;
+
+}
+
+
+@media (max-width: 768px) { 
+    .div-and-text{
+        grid-template-columns: 1fr;
+    }
+
+    #intro-button{
+        top: 110%;
+       
+    }
+    .intro-title{
+        top: 90%;
+    }
+
+}
+
+
+
+
+#text-box{
+    background-color: #fff;
+    width: 77%;
+    /* margin-top: 2%; */
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #8BC34A;
+}
+
+.map{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #567434;
+}
+
+
+#main-map-search-field{
+    margin-left: 5%;
+    display: inline-block;
+    width: 100%;
+    /* border: 10px solid #fff; */
+}
+
+
+#box-modify{
+    background-color: #eee;
+}
+
+
+
+.grid-layout{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+
+}
+
+
+.leaflet-bottom {
+    left: 0;
+}
+.leaflet-control.leaflet-right{
+    float: left;
+}
+
+.leaflet-popup-content-wrapper{
+    background-color: #abcdef;
+    color:  rgb(1, 15, 3);
+    font-weight: bold;
+}
+
+
+.leaflet-container a.leaflet-popup-close-button {
+   
+    color: #000;
+   
+}
+
+.leaflet-bar > a:link { background-color: #b1e49b; }
+.leaflet-bar > a:link:hover { background-color: #bcd; }
+
+
+
+.css-11lq3yg-MuiGrid-root{
+    width:  100%;
+    background-color:yellow;
+    flex: 1;
+  }
+
+
+  /*  ProfileTable > TablePagination: add break line */
+  .css-6hp17o-MuiList-root-MuiMenu-list> * {
+      width: 100%;
+     
+  }

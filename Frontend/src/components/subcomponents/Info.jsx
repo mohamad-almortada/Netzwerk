@@ -53,7 +53,7 @@ const Info = (props) => {
          {"Noch keine Mitglieder. Machen Sie als erster mit, indem Sie das Eintragsformular abschicken."}  <br />
          <Button
            type="submit"
-           onClick={() =>{navigate("../add-account")}}
+           onClick={() =>{navigate("../profil-erstellen")}}
            variant="text"
          > <AddBoxIcon/> </Button></Typography>: (
            <Typography variant="h4" align="center">

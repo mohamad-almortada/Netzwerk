@@ -1,14 +1,4 @@
- 
-
-
-# NeDiChe
-
-****
-A deployed version of the app is available on: [nediche](https://joyful-frangipane-176370.netlify.app)
-
-****
-
-A full stack app with an integrated OpenStreetMap. The app is built with react and php.
+ A full stack app with an integrated OpenStreetMap. The app is built with react and php.
 Following features are provided:
 * use a filter to search for users that share common keywords.
 * create a profile by submitting a form with some required fields and input validation.
